@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiflix</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Musiflix</h1>
+
+    <ul>
+        <li class="item-bob-marley">
+            <div class="image"></div>
+            <div class="content">
+                <h2>it's love (Bob Marley)</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text
+                    of the printing and typesetting
+                </p>
+            </div>
+            <div class="button">
+                <a class="play-button" data-id="bob-marley" >Play</a>
+                <audio
+                    src="./musics/bob-marley.mp3"
+                    type="audio/mp3"
+                    data-audio="bob-marley"
+                >
+                </audio>
+            </div>
+        </li>
+
+        <li class="item-atitute-consiente">
+            <div class="image"></div>
+            <div class="content">
+                <h2>Soldado 121 (Atitude consiente)</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text
+                    of the printing and typesetting
+                </p>
+            </div>
+            <div class="button">
+                <a class="play-button" data-id="atitude-consiente">Play</a>
+                <audio
+                    src="./musics/atitude-consiente.mp3"
+                    type="audio/mp3"
+                    data-audio="atitude-consiente"
+                >
+                </audio>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
+
+<script src="./index.js" ></script>

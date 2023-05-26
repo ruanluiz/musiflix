@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #262626;
+    padding: 0 30px;
+}
+
+h1 {
+    color: #1ccc5b;
+    margin-bottom: 80px;
+}
+
+
+
+/*lista de musica */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background-color: #373737;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;;
+    align-items: center;
+}
+
+ul li:hover {
+    background-color: #4b4b4b;
+}
+
+ul li .image {
+    width:150px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+ul li.item-bob-marley .image {
+    background: url("./images/bob-marley.jpg") center center no-repeat;
+    background-size: cover;
+}
+ul li.item-atitute-consiente .image{
+    background: url("./images/atitude-consiente.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+ul li .content{
+    flex: 1
+}
+
+ul li .content h2 {
+    color: #ededed;
+}
+
+ul li .content p {
+    color: #aaa;
+}
+
+ul li .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li .button a {
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-color: #1ccc5b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 25px;
+}
